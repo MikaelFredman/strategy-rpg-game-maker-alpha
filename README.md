@@ -8,10 +8,20 @@ The editor is a board-game-like 3D hex-map and game-authoring tool for offline S
 
 This is an early alpha, not a finished commercial release. Expect incomplete visual assets, balance changes, and saved-project migrations.
 
-- Download the current package from [Strategy RPG Game Maker 0.1.0 Alpha 1](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.1.0-alpha.1).
+- Download the current package from [Strategy RPG Game Maker 0.1.0 Alpha 2](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.1.0-alpha.2).
 - Read the release notes before installing a new version.
 - Keep backup copies of important project files.
 - The commercial engine source code is not hosted in this repository.
+
+## Install on Windows
+
+1. Download the Alpha 2 ZIP from the release link above.
+2. Right-click the ZIP and choose **Extract All…**. Do not run the launcher from inside the ZIP.
+3. Install the current [Node.js LTS](https://nodejs.org/) release if Node.js is not already installed.
+4. Open the extracted folder and double-click **Start Strategy RPG Game Maker Alpha.cmd**.
+5. Keep the launcher window open. The first start needs internet access to install the local runtime; later starts and ordinary editing work offline.
+
+See [INSTALL.md](INSTALL.md) for troubleshooting and a first-test walkthrough. The package opens with the included **Ravenwood Pass** example, and the built-in **Help & Guide** explains editing and play from principles through detailed controls.
 
 ## Give feedback
 
