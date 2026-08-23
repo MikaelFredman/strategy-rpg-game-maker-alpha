@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a reproducible editor, simulator, save, rendering, or installation problem.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Do not include passwords, private data, or content you lack permission to share.
+  - type: input
+    id: version
+    attributes:
+      label: Alpha version
+      placeholder: e.g. 0.1.0-alpha.1
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Installation, Map Editor, Game Rules, Story and Quests, Simulation AI, Tactical battle, Save or load, Performance, Graphics or sound, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Give the smallest exact sequence that reproduces the problem.
+      placeholder: "1. Open...\n2. Select...\n3. Right-click..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows and browser
+      placeholder: Windows 11, Edge 140
+    validations:
+      required: true
+  - type: input
+    id: map
+    attributes:
+      label: Map size and project origin
+      placeholder: 192 x 128, created in this alpha / migrated from alpha X
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional evidence
+      description: Screenshots, non-sensitive logs, or a link to a minimal project file you have permission to share.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched for an existing report.
+          required: true
+        - label: I removed private information and third-party copyrighted content.
+          required: true
