@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a change that improves game building or play.
+title: "[Idea]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is difficult or missing today, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed workflow
+      description: Describe the simplest useful behavior from the user's perspective.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Personal importance
+      options: [Nice to have, Important, Prevents my intended game]
+    validations:
+      required: true
