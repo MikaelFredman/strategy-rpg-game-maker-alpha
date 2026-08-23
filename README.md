@@ -8,7 +8,7 @@ The editor is a board-game-like 3D hex-map and game-authoring tool for offline S
 
 This is an early alpha, not a finished commercial release. Expect incomplete visual assets, balance changes, and saved-project migrations.
 
-- Download tested alpha packages from **Releases** when available.
+- Download the current package from [Strategy RPG Game Maker 0.1.0 Alpha 1](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.1.0-alpha.1).
 - Read the release notes before installing a new version.
 - Keep backup copies of important project files.
 - The commercial engine source code is not hosted in this repository.
@@ -34,3 +34,4 @@ Only share projects and media that you created or have permission to distribute.
 - Desktop/laptop layout; mobile and non-Chromium browsers are not currently supported
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [COMMUNITY_GUIDELINES.md](COMMUNITY_GUIDELINES.md), and [SECURITY.md](SECURITY.md) before participating.
+
