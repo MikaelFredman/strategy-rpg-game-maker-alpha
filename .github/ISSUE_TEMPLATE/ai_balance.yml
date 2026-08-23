@@ -1,0 +1,42 @@
+name: AI or balance problem
+description: Report irrational AI, deadlocks, oscillation, or consistently unfair outcomes.
+title: "[AI/Balance]: "
+labels: ["ai", "balance", "needs-triage"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Alpha version
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options: [AI versus AI, Human versus AI, Tactical battle, World-map movement]
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Teams, objectives, and starting situation
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: Include turn numbers, repeated movement, target choices, battles, and outcome when known.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: More reasonable behavior
+    validations:
+      required: true
+  - type: input
+    id: repetitions
+    attributes:
+      label: Number of times observed
+      placeholder: e.g. 4 of 5 games
