@@ -1,8 +1,14 @@
-# Release notes — 0.2.0-beta.8
+# Release notes — 0.2.0-beta.9
 
 Released: 24 August 2026
 
 ## Highlights
+
+- Strategic AI now estimates route-aware arrival time, projected battle duration and the nearest compatible enemy reinforcement before attacking.
+- AI exploits isolated weaker formations when it can finish before support arrives, but consolidates with a compatible same-team force when the opportunity window is unsafe.
+- Full groups can combine into a multi-group army of up to four configured group capacities; individual group limits and character identity remain intact.
+- Tactical AI no longer spends its only AP on an equivalent positioning move when a clear attack is already available, eliminating the observed circling-without-attacking loop.
+- Seeded combat and AI activation ordering use stable game identity rather than random runtime UUID ordering, improving reproducible balancing.
 
 - Standardized camera interaction: left-drag pans, middle-drag rotates around the hex beneath the pointer, wheel zooms and right-click is reserved for Hex Actions.
 - Added multi-select Clear tile and reversible Hide/Show tile actions. Hidden tiles are black on every visible side and keep their data for restoration.
@@ -12,7 +18,7 @@ Released: 24 August 2026
 - A reusable 100-fight tactical balance harness now reports outcomes, rounds, action mix, consumable use and character matchups.
 
 - Fixed AI spectator rounds overwriting arrows, fireballs and damage labels before their animation timeline completed. A resolved round now remains visible for the full effect window.
-- Tactical formations advance simultaneously in 0.5-second frames. Round movement duration follows the longest path rather than adding every combatant's route together.
+- Tactical formations advance sequentially in 0.5-second-per-hex frames. One character completes its route before the next character begins.
 - Equipped bows now provide four-hex attacks and ranged AI positioning to any compatible character; equipped spears provide two-hex reach. Spell range remains four hexes.
 - Authoritative battle events preserve both movement routes and tactical effects for diagnostics and future network presentation.
 - Tactical movement now follows the resolved hex route one tile at a time at the same 0.5-second cadence used on world maps.
@@ -45,9 +51,9 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 84 automated domain and simulation tests passed.
-- One hundred tactical fights all resolved: 52 Good wins and 48 Evil wins, with no draws and 94 consumables used.
-- Ten complete Ravenwood simulations produced exactly five Good and five Evil victories, all within 100 turns.
+- 88 automated domain and simulation tests passed, including isolated attack-window, defensive consolidation and twelve-character army-formation regressions.
+- One hundred tactical fights all resolved: 57 Good wins and 43 Evil wins, with no draws and a 4.08-round average.
+- Ten complete Ravenwood simulations produced eight Good and two Evil victories, all within 100 turns.
 - Production build, server-rendered shell and ESLint passed.
 - Ten deterministic full Ravenwood campaign simulations produced wins for both Good and Evil within 100 turns.
 - The source-free ZIP was extracted into a separate clean folder, installed with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood and Help present.
@@ -63,6 +69,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.8.zip`
-- Size: 942,017 bytes
-- SHA-256: `4695D71C21A9267299AF99225B7DB9DE94DB8EC5D5E47C033A66EF88DE9D3920`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.9.zip`
+- Size: 937,870 bytes
+- SHA-256: `88C4003BAE2B26B9724D6539156A1F6E1FD8F2AD842E7C83212DA1BE63F43EB6`
