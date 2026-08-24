@@ -1,31 +1,36 @@
-# Release notes — 0.2.0-beta.3
+# Release notes — 0.2.0-beta.4
 
 Released: 24 August 2026
 
 ## Highlights
 
-- Ravenwood Pass is now a complete editable three-map reference campaign.
-- Smart Route Builder creates continuous roads, chooses bend variants and inserts bridges across water.
-- Quest Journal shows prioritized objectives, descriptions and recommended next actions, with later acts revealed through prerequisites.
-- Dialogue events are presented sequentially so an unanswered conversation cannot be replaced by another event.
-- AI rotates limited formation activations fairly, plans toward visible strategic objectives through fog and follows story targets through linked maps.
-- Wood-floor interiors support characters and combat correctly.
-- Built-in Help & Guide documents seamless routes, quest sequencing and Ravenwood play.
+- Ravenwood Pass now has a classical fantasy opening, a continuous consequence-driven story and three distinct endings.
+- Four heroes receive editable permanent progression choices, while 18 campaign items support equipment, consumables, wards and quest outcomes.
+- Ten setting-neutral tactical maps cover meadow, river, forest, stone pass, fortress, indoor hall and cavern encounters.
+- Game makers can create or retag their own maps as **Battle**, then use them as the game default or assign them to selected world hexes.
+- The Hex Actions selector displays a real miniature preview before a separate Apply action changes any selected hexes.
+- The AI follows prerequisite-aware story targets and the balance regression runs the complete Ravenwood campaign.
 
 ## Ravenwood campaign
 
-The Wardens begin on the western road. Players may search the Old Raven Inn, explore the optional Whispering Cavern, recover useful equipment and consumables, meet Alden Reed's militia and prepare for the assault on Grimfang at Ashen Banner Keep. Choices can change supplies, mana or temporary combat strength.
+The Wardens of Ravenwood defend an old pact between the pass, its common crossing and the living forest. Grimfang, once a Warden himself, seeks the Heartstone beneath Whispering Cavern so he can forge it into the Thorn Crown.
 
-Ravenwood is setting-neutral and may be inspected and modified as a Game Maker example.
+The player begins with **Prologue — The Broken Oath**, chooses whether to rescue refugees or race toward the bridge, develops the four heroes through permanent paths, gathers allies and supplies, breaks Grimfang's anchors and decides how the Hope Gem will shape the ending. The campaign remains setting-neutral and was built entirely from editable Game Maker data.
+
+## Battle-map authoring
+
+- Create or open a map in Map Browser and set its engine tag to **Battle**.
+- Build terrain, water, bridges, cover, walls and obstacles with the ordinary map tools.
+- Choose the map in Game Rules as the default, or from a selected world hexagon's right-click menu.
+- The preview uses the project map's actual saved layout. Combat clears editor-placed units and deploys both sides on opposite passable edges.
 
 ## Verification performed
 
-- 71 automated domain and simulation tests passed.
-- Production build, server-rendered shell and lint passed.
-- Ten deterministic Ravenwood skirmish simulations produced victories for both Good and Evil within 100 turns.
-- Additional full-project simulations produced both Good and Evil campaign victories.
-- 200 × 200 and diagnostic 512 × 512 map performance tests passed without excessive memory use.
-- The source-free package was extracted separately, installed with zero reported runtime vulnerabilities and returned HTTP 200.
+- 76 automated domain and simulation tests passed.
+- Production build, server-rendered shell and ESLint passed.
+- Ten deterministic full Ravenwood campaign simulations produced five Good and five Evil victories within 100 turns.
+- The source-free ZIP was extracted into a separate clean folder, installed with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood and Help present.
+- Package contents were checked to exclude source, test, Git and private fan-project material.
 
 ## Known limitations
 
@@ -37,7 +42,6 @@ Ravenwood is setting-neutral and may be inspected and modified as a Game Maker e
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.3.zip`
-- Size: 902,685 bytes
-- SHA-256: `A58637C35992BBEBB48337E55C26B0A48CD54AF222B335086431F0C1B2FE9957`
-
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.4.zip`
+- Size: 913,193 bytes
+- SHA-256: `0B2A51ED372AB7AE835437229A269D6BD591459C333F2916705985CAF09E3DC2`

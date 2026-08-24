@@ -9,8 +9,8 @@
 
 ## Installation
 
-1. Open the [0.2.0-beta.3 release](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.3).
-2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.3.zip`.
+1. Open the [0.2.0-beta.4 release](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.4).
+2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.4.zip`.
 3. In File Explorer, right-click the downloaded ZIP and choose **Extract All…**.
 4. Extract the complete folder somewhere writable, such as Documents. Do not launch it from inside the ZIP preview.
 5. Install Node.js LTS from nodejs.org with the standard choices if `node --version` is unavailable or older than 22.13.
@@ -28,10 +28,12 @@ Later starts and ordinary editor/game use work without internet access because t
 4. Select a dirt or stone road mesh. Ctrl/Shift-click two suitable endpoint hexes, right-click and use **Connect first and last selected hex**. Confirm that bends rotate correctly and water crossings receive bridges.
 5. Open **Map Browser** and inspect Ravenwood Pass, The Old Raven Inn and Whispering Cavern. Check that each doorway/cave link works in both directions.
 6. Choose **Start New Game**. Keep the default human Good side and AI Evil side for the first playthrough.
-7. Follow the quest journal: investigate the inn, decide how to use supplies, optionally recover the Hope Gem, cooperate with the militia and defeat Grimfang.
-8. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and tactical encounters use the selected battle map.
-9. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story and rotations remain intact.
-10. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
+7. Follow the Broken Oath quest journal: investigate the inn, choose hero paths, decide how to use supplies and the Hope Gem, cooperate with the militia, break the two anchors and confront Grimfang.
+8. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
+9. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
+10. In Map Browser, create or retag a small map as **Battle**, paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
+11. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story and rotations remain intact.
+12. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
 
 ## What to report
 
