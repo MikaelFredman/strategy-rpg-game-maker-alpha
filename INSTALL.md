@@ -9,8 +9,8 @@
 
 ## Installation
 
-1. Open the [0.2.0-beta.6 release](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.6).
-2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.6.zip`.
+1. Open the public [`0.2.0-beta.6` package](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.6.zip).
+2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.6.zip` using GitHub's download button.
 3. In File Explorer, right-click the downloaded ZIP and choose **Extract All…**.
 4. Extract the complete folder somewhere writable, such as Documents. Do not launch it from inside the ZIP preview.
 5. Install Node.js LTS from nodejs.org with the standard choices if `node --version` is unavailable or older than 22.13.

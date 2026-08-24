@@ -6,7 +6,7 @@ Strategy RPG Game Maker is an offline-first, board-game-like 3D hex editor and g
 
 ## Current release
 
-- [Download Strategy RPG Game Maker 0.2.0-beta.6](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.6)
+- [Download Strategy RPG Game Maker 0.2.0-beta.6](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.6.zip)
 - Read [RELEASE_NOTES.md](RELEASE_NOTES.md) before testing.
 - Follow [INSTALL.md](INSTALL.md) for installation and the recommended first test.
 - Keep backup copies of projects that matter to you. Project conversion exists, but this is still a preview build.
@@ -32,7 +32,7 @@ The intended human play session is approximately 40–70 minutes, but this estim
 
 ## Install on Windows
 
-1. Download `Strategy-RPG-Game-Maker-0.2.0-beta.6.zip` from the release page.
+1. Download [`Strategy-RPG-Game-Maker-0.2.0-beta.6.zip`](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.6.zip) from this repository.
 2. Right-click the ZIP and choose **Extract All…**. Do not run it from inside the ZIP preview.
 3. Install the current [Node.js LTS](https://nodejs.org/) if Node.js is not already installed. Node.js 22.13 or newer is required.
 4. Open the extracted folder and double-click **Start Strategy RPG Game Maker Beta.cmd**.
