@@ -4,7 +4,7 @@ Thank you for helping test Strategy RPG Game Maker.
 
 ## A useful bug report
 
-1. Confirm the issue occurs in the newest alpha.
+1. Confirm the issue occurs in the newest Beta Preview.
 2. Search existing issues for the same behavior.
 3. Describe the smallest repeatable sequence that causes it.
 4. State what you expected and what happened instead.
@@ -27,3 +27,4 @@ Reports are classified as:
 - `suggestion`: improvement or new idea
 
 This community repository does not accept engine source-code pull requests.
+
