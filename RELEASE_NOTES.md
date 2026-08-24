@@ -1,9 +1,13 @@
-# Release notes — 0.2.0-beta.5
+# Release notes — 0.2.0-beta.6
 
 Released: 24 August 2026
 
 ## Highlights
 
+- Tactical movement now follows the resolved hex route one tile at a time at the same 0.5-second cadence used on world maps.
+- Sword/axe swings, spear/lance thrusts, bow releases, unarmed strikes and staff-conjuring gestures originate at the acting figure before projectile or impact effects resolve.
+- Character Editor supports optional weapon-specific animation chains with at most five steps. Authors can copy the base mesh pose to step 1, copy the previous step forward or use the local Copy/Paste pose clipboard.
+- Item Designer explicitly associates a weapon with its fight-animation family, including custom spears and staffs.
 - The new **Project Dashboard** turns the complete authoring process into a guided Maps → Rules → Story → Content → Validate → Playtest flow, with project metrics, readiness and a recommended next action.
 - Map Browser now offers editable starting templates for an outdoor region, indoor stronghold, cave dungeon and five common tactical arenas: open field, forest, river crossing, great hall and cavern.
 - Story dialogues have clearer speaker identity, scene progress and numbered choices.
@@ -30,7 +34,7 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 77 automated domain and simulation tests passed.
+- 79 automated domain and simulation tests passed.
 - Production build, server-rendered shell and ESLint passed.
 - Ten deterministic full Ravenwood campaign simulations produced wins for both Good and Evil within 100 turns.
 - The source-free ZIP was extracted into a separate clean folder, installed with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood and Help present.
@@ -46,6 +50,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.5.zip`
-- Size: 929,398 bytes
-- SHA-256: `18F6218EAD65C961C0C1787D33FEA0D8C2C30366EDD94BAF58701137C90632E1`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.6.zip`
+- Size: 929,842 bytes
+- SHA-256: `7B7DFD14DC014AF57F302A697878274224C87E13FEE7C4DF3352A020AC511621`

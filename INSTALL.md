@@ -9,8 +9,8 @@
 
 ## Installation
 
-1. Open the [0.2.0-beta.5 release](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.5).
-2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.5.zip`.
+1. Open the [0.2.0-beta.6 release](https://github.com/MikaelFredman/strategy-rpg-game-maker-alpha/releases/tag/v0.2.0-beta.6).
+2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.6.zip`.
 3. In File Explorer, right-click the downloaded ZIP and choose **Extract All…**.
 4. Extract the complete folder somewhere writable, such as Documents. Do not launch it from inside the ZIP preview.
 5. Install Node.js LTS from nodejs.org with the standard choices if `node --version` is unavailable or older than 22.13.
@@ -32,8 +32,10 @@ Later starts and ordinary editor/game use work without internet access because t
 8. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
 9. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
 10. In Map Browser, create a tactical map from a battle template—or retag a custom small map as **Battle**—paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
-11. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story and rotations remain intact.
-12. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
+11. Right-click an occupied editor hex, choose **Edit character…**, expand **Optional fight animations**, copy the base mesh pose to step 1 and copy the previous pose into a later step. Save and verify the custom chain survives reopening the project.
+12. In a tactical battle, verify half-second tile-by-tile movement and visible weapon-aware sword, spear, bow or staff actions originating at the acting figure.
+13. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story, rotations and animation poses remain intact.
+14. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
 
 ## What to report
 
