@@ -1,9 +1,13 @@
-# Release notes — 0.2.0-beta.4
+# Release notes — 0.2.0-beta.5
 
 Released: 24 August 2026
 
 ## Highlights
 
+- The new **Project Dashboard** turns the complete authoring process into a guided Maps → Rules → Story → Content → Validate → Playtest flow, with project metrics, readiness and a recommended next action.
+- Map Browser now offers editable starting templates for an outdoor region, indoor stronghold, cave dungeon and five common tactical arenas: open field, forest, river crossing, great hall and cavern.
+- Story dialogues have clearer speaker identity, scene progress and numbered choices.
+- Ravenwood conclusions now open a Campaign Chronicle that explains how rescued civilians, bridge support, ritual anchors and the use of Hope shaped the ending.
 - Ravenwood Pass now has a classical fantasy opening, a continuous consequence-driven story and three distinct endings.
 - Four heroes receive editable permanent progression choices, while 18 campaign items support equipment, consumables, wards and quest outcomes.
 - Ten setting-neutral tactical maps cover meadow, river, forest, stone pass, fortress, indoor hall and cavern encounters.
@@ -26,9 +30,9 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 76 automated domain and simulation tests passed.
+- 77 automated domain and simulation tests passed.
 - Production build, server-rendered shell and ESLint passed.
-- Ten deterministic full Ravenwood campaign simulations produced five Good and five Evil victories within 100 turns.
+- Ten deterministic full Ravenwood campaign simulations produced wins for both Good and Evil within 100 turns.
 - The source-free ZIP was extracted into a separate clean folder, installed with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood and Help present.
 - Package contents were checked to exclude source, test, Git and private fan-project material.
 
@@ -42,6 +46,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.4.zip`
-- Size: 913,193 bytes
-- SHA-256: `0B2A51ED372AB7AE835437229A269D6BD591459C333F2916705985CAF09E3DC2`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.5.zip`
+- Size: 929,398 bytes
+- SHA-256: `18F6218EAD65C961C0C1787D33FEA0D8C2C30366EDD94BAF58701137C90632E1`
