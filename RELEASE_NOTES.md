@@ -1,8 +1,15 @@
-# Release notes — 0.2.0-beta.7
+# Release notes — 0.2.0-beta.8
 
 Released: 24 August 2026
 
 ## Highlights
+
+- Standardized camera interaction: left-drag pans, middle-drag rotates around the hex beneath the pointer, wheel zooms and right-click is reserved for Hex Actions.
+- Added multi-select Clear tile and reversible Hide/Show tile actions. Hidden tiles are black on every visible side and keep their data for restoration.
+- Tactical AI scores hit-adjusted damage, target resistance, kill opportunity, target threat, combat role and defence timing.
+- Casters, ranged units, guardians, brutes, skirmishers and beasts use distinct tactics. Magical beasts no longer automatically cast wizard spells.
+- AI uses useful health and mana potions as real AP actions; charges decrease and the final charge removes the item. Empty or unnecessary potions are rejected.
+- A reusable 100-fight tactical balance harness now reports outcomes, rounds, action mix, consumable use and character matchups.
 
 - Fixed AI spectator rounds overwriting arrows, fireballs and damage labels before their animation timeline completed. A resolved round now remains visible for the full effect window.
 - Tactical formations advance simultaneously in 0.5-second frames. Round movement duration follows the longest path rather than adding every combatant's route together.
@@ -38,7 +45,9 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 80 automated domain and simulation tests passed.
+- 84 automated domain and simulation tests passed.
+- One hundred tactical fights all resolved: 52 Good wins and 48 Evil wins, with no draws and 94 consumables used.
+- Ten complete Ravenwood simulations produced exactly five Good and five Evil victories, all within 100 turns.
 - Production build, server-rendered shell and ESLint passed.
 - Ten deterministic full Ravenwood campaign simulations produced wins for both Good and Evil within 100 turns.
 - The source-free ZIP was extracted into a separate clean folder, installed with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood and Help present.
@@ -54,6 +63,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.7.zip`
-- Size: 930,323 bytes
-- SHA-256: `653EC707D52D96CFB1BF0D67D9965C49F9357A4FF27B0976BA4EF5403A894354`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.8.zip`
+- Size: 942,017 bytes
+- SHA-256: `4695D71C21A9267299AF99225B7DB9DE94DB8EC5D5E47C033A66EF88DE9D3920`
