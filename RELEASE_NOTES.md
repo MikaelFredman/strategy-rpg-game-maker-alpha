@@ -1,8 +1,11 @@
-# Release notes — 0.2.0-beta.9
+# Release notes — 0.2.0-beta.10
 
-Released: 24 August 2026
+Released: 25 August 2026
 
 ## Highlights
+
+- Tactical Team Summary panels now preserve both complete opening rosters and their opening maximum HP throughout an encounter.
+- Fallen characters remain in their original list position at 0 HP, with the complete row shown in red instead of disappearing after the round.
 
 - Strategic AI now estimates route-aware arrival time, projected battle duration and the nearest compatible enemy reinforcement before attacking.
 - AI exploits isolated weaker formations when it can finish before support arrives, but consolidates with a compatible same-team force when the opportunity window is unsafe.
@@ -51,7 +54,7 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 88 automated domain and simulation tests passed, including isolated attack-window, defensive consolidation and twelve-character army-formation regressions.
+- 89 automated domain and simulation tests passed, including persistent casualty roster/max-HP, isolated attack-window, defensive consolidation and twelve-character army-formation regressions.
 - One hundred tactical fights all resolved: 57 Good wins and 43 Evil wins, with no draws and a 4.08-round average.
 - Ten complete Ravenwood simulations produced eight Good and two Evil victories, all within 100 turns.
 - Production build, server-rendered shell and ESLint passed.
@@ -69,6 +72,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.9.zip`
-- Size: 937,870 bytes
-- SHA-256: `88C4003BAE2B26B9724D6539156A1F6E1FD8F2AD842E7C83212DA1BE63F43EB6`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.10.zip`
+- Size: 938,607 bytes
+- SHA-256: `A6DD650470B81C26D3A0A33B2F7B346948A46BE32ED4AF0DFE1C5250C6540FDD`
