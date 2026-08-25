@@ -1,4 +1,41 @@
-# Release notes — 0.2.0-beta.11
+# Release notes — 0.2.0-beta.13
+
+Released: 25 August 2026
+
+## Highlights
+
+- Asset Studio's joint-authored animations now drive the corresponding actions in tactical gameplay instead of existing only as editor previews.
+- Added protected, copyable preset animation families for unarmed combat, sword, spear, longbow, staff magic, defence and drinking/consumables. Animation chains may contain as many authored poses as the movement needs.
+- Equipped weapons and shields attach to the animated hands. The longbow uses a moving two-part string, a visible loaded arrow that follows the drawing hand and a timed release into the projectile flight.
+- Ravenwood Pass assigns suitable visual assets, active equipment and animation families to its named heroes and Ashen Banner opponents so the complete runtime path can be tested immediately.
+- Tactical faction geography is now consistent: Good deploys on the left/west side and is summarized with green health; Evil deploys on the right/east side and is summarized with red health. This remains true when Evil initiates the encounter.
+
+## Verification performed
+
+- 96 automated domain and simulation tests passed, including a regression in which Evil attacks but still deploys on the Evil side.
+- Three rendered-interface tests, production build and ESLint passed.
+- Ten deterministic Ravenwood simulations completed within 100 turns and produced victories for both Good and Evil.
+- A live River Crossing spectator battle visually confirmed the canonical Good/green/left and Evil/red/right presentation.
+- The source-free ZIP was installed in a separate clean folder, audited with zero reported runtime vulnerabilities and returned HTTP 200 with Ravenwood Pass and Help present.
+
+## Known limitations
+
+- This remains a Beta Preview and needs broader human testing of animation quality, accessibility and campaign pacing.
+- Chrome and Edge on Windows are the supported browsers.
+- Initial setup requires internet access to install the local runtime.
+- The production build reports a non-blocking large JavaScript chunk advisory.
+
+## Package integrity
+
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.13.zip`
+- Size: 1,011,784 bytes
+- SHA-256: `8B222964282ACF42E91703768BEBE37481189829C4457CA487DEC510153CE868`
+
+Version 0.2.0-beta.12 was an internal release candidate that was rejected during package validation and was never published.
+
+---
+
+# Previous release — 0.2.0-beta.11
 
 Released: 25 August 2026
 
