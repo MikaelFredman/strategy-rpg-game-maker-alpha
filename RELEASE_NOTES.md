@@ -1,4 +1,39 @@
-# Release notes — 0.2.0-beta.13
+# Release notes — 0.2.0-beta.14
+
+Released: 25 August 2026
+
+## Highlights
+
+- Tactical battle rounds now resolve through readable initiative passes. Each available character performs one isolated action before faster or higher-level characters spend their additional AP.
+- Only one character animation, projectile, damage result and foreground combat sound is presented at a time. A battle-ending action remains visible before the tactical window closes.
+- The active character is marked in gold on both the map and Team Summary row. A target that loses health flashes red for approximately 0.25 seconds while its current HP updates.
+- Replaced the redundant yellow melee partial-ring effect with authored weapon/body motion and damage text.
+- Expanded the procedural soundtrack into five original, minute-long arranged themes with distinct rhythmic accent patterns. The 148 and 164 BPM battle themes use denser percussion than the three exploration themes.
+- Added layered battle audio with close weapon, impact and spell sounds above quieter distant cries, clashes, horns and battlefield rumble; singular action playback prevents foreground effects from overlapping.
+
+## Verification performed
+
+- 102 automated domain and simulation tests passed, including extra-AP initiative ordering, isolated effect duration and seeded Ravenwood balance.
+- Five rendered-interface tests, production build and ESLint passed.
+- Ten deterministic Ravenwood simulations completed within 100 turns with victories for both Good and Evil.
+- The source-free ZIP excluded checked private campaign terms, installed 74 runtime packages with zero reported vulnerabilities and returned HTTP 200 with Ravenwood Pass present.
+
+## Known limitations
+
+- This remains a Beta Preview and needs broader human testing of battle pacing, animation quality, accessibility and campaign duration.
+- Chrome and Edge on Windows remain the supported browsers.
+- Initial setup needs internet access to install the local runtime.
+- The production build retains a non-blocking large JavaScript chunk advisory.
+
+## Package integrity
+
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.14.zip`
+- Size: 1,031,102 bytes
+- SHA-256: `396812BA87A95C04F5FD9D0CC08E8602E37615D95049B5B21F15AB9432D5EF8C`
+
+---
+
+# Previous release — 0.2.0-beta.13
 
 Released: 25 August 2026
 
