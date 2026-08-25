@@ -9,8 +9,8 @@
 
 ## Installation
 
-1. Open the public [`0.2.0-beta.10` package](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.10.zip).
-2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.10.zip` using GitHub's download button.
+1. Open the public [`0.2.0-beta.11` package](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.11.zip).
+2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.11.zip` using GitHub's download button.
 3. In File Explorer, right-click the downloaded ZIP and choose **Extract All…**.
 4. Extract the complete folder somewhere writable, such as Documents. Do not launch it from inside the ZIP preview.
 5. Install Node.js LTS from nodejs.org with the standard choices if `node --version` is unavailable or older than 22.13.
@@ -23,22 +23,23 @@ Later starts and ordinary editor/game use work without internet access because t
 ## Recommended Ravenwood test
 
 1. Confirm that **Ravenwood Pass** opens and reports 36 × 28.
-2. Open **Project Dashboard** to see the complete authoring workflow, then use **Help & Guide** for detailed instructions.
-3. Zoom with the wheel, pan with left-drag and orbit around the pointed hex with middle-drag. Right-click must open Hex Actions without rotating the map. Hover the Old Raven Inn, Whispering Cavern, Northwatch Tower and Ashen Banner Keep to inspect their landmark information.
-4. Select a dirt or stone road mesh. Ctrl/Shift-click two suitable endpoint hexes, right-click and use **Connect first and last selected hex**. Confirm that bends rotate correctly and water crossings receive bridges.
-5. Open **Map Browser** and inspect Ravenwood Pass, The Old Raven Inn and Whispering Cavern. Check that each doorway/cave link works in both directions.
-6. Choose **Start New Game**. Keep the default human Good side and AI Evil side for the first playthrough.
-7. Follow the Broken Oath quest journal: investigate the inn, choose hero paths, decide how to use supplies and the Hope Gem, cooperate with the militia, break the two anchors and confront Grimfang.
-8. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
-9. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
-10. In Map Browser, create a tactical map from a battle template—or retag a custom small map as **Battle**—paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
-11. Right-click an occupied editor hex, choose **Edit character…**, expand **Optional fight animations**, copy the base mesh pose to step 1 and copy the previous pose into a later step. Save and verify the custom chain survives reopening the project.
-12. In a tactical battle, verify sequential half-second tile-by-tile movement: one character completes its route before the next begins. Confirm visible weapon-aware sword, spear, bow or staff actions originating at the acting figure. In AI spectator mode, arrows, fireballs and damage labels should complete before the next round begins.
-13. In the panels below the tactical map, confirm that each side's opening maximum HP remains fixed after a casualty and that the fallen character stays in the list at 0 HP with red row text.
-14. In an AI-only world simulation, inspect Latest world event for decisions to strike before reinforcements arrive, consolidate against a reinforced enemy or form a multi-group army.
-15. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story, rotations and animation poses remain intact.
-16. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
-17. In editor mode, right-click a tile and verify Clear tile plus the alternating Hide tile/Show tile action. Hide must make the complete tile black; Show must restore its authored content.
+2. Open **Project Dashboard** to see the complete Game Setup & Rules → Maps & Locations → Content Studio → Story, Quests & Dialogues workflow, then use **Help & Guide** for detailed instructions.
+3. Open **Content Studio**. Confirm that Characters & Creatures lists formations from all project maps, Items & Equipment opens Item Designer and Visual Assets opens the articulated visual editor.
+4. Zoom with the wheel, pan with left-drag and orbit around the pointed hex with middle-drag. Right-click must open Hex Actions without rotating the map. Hover the Old Raven Inn, Whispering Cavern, Northwatch Tower and Ashen Banner Keep to inspect their landmark information.
+5. Select a dirt or stone road mesh. Ctrl/Shift-click two suitable endpoint hexes, right-click and use **Connect first and last selected hex**. Confirm that bends rotate correctly and water crossings receive bridges.
+6. Open **Map Browser** and inspect Ravenwood Pass, The Old Raven Inn and Whispering Cavern. Check that each doorway/cave link works in both directions.
+7. Choose **Start New Game**. Keep the default human Good side and AI Evil side for the first playthrough.
+8. Follow the Broken Oath quest journal: investigate the inn, choose hero paths, decide how to use supplies and the Hope Gem, cooperate with the militia, break the two anchors and confront Grimfang.
+9. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
+10. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
+11. In Map Browser, create a tactical map from a battle template—or retag a custom small map as **Battle**—paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
+12. Right-click an occupied editor hex, choose **Edit character…**, expand **Optional fight animations**, copy the base mesh pose to step 1 and copy the previous pose into a later step. Save and verify the custom chain survives reopening the project.
+13. In a tactical battle, verify sequential half-second tile-by-tile movement: one character completes its route before the next begins. Confirm visible weapon-aware sword, spear, bow or staff actions originating at the acting figure. In AI spectator mode, arrows, fireballs and damage labels should complete before the next round begins.
+14. In the panels below the tactical map, confirm that each side's opening maximum HP remains fixed after a casualty and that the fallen character stays in the list at 0 HP with red row text.
+15. In an AI-only world simulation, inspect Latest world event for decisions to strike before reinforcements arrive, consolidate against a reinforced enemy or form a multi-group army.
+16. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story, rotations, Visual Assets and animation poses remain intact.
+17. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
+18. In editor mode, right-click a tile and verify Clear tile plus the alternating Hide tile/Show tile action. Hide must make the complete tile black; Show must restore its authored content.
 
 ## What to report
 

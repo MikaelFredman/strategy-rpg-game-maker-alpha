@@ -1,8 +1,16 @@
-# Release notes — 0.2.0-beta.10
+# Release notes — 0.2.0-beta.11
 
 Released: 25 August 2026
 
 ## Highlights
+
+- Added a unified **Content Studio** for Characters & Creatures, Items & Equipment and reusable Visual Assets.
+- Content Studio lists every placed formation across all maps and opens it at the correct map and coordinate for editing.
+- Added a lightweight articulated Visual Asset editor with ready-made Humanoid, Quadruped, Winged and Static / Item templates.
+- Visual Assets support reusable parts, materials, safe parented joints, smooth quaternion-interpolated poses and up to five poses per action.
+- Gameplay-event markers synchronize melee hits, projectile releases and spells with authored movement. Animated visuals can be assigned to characters and static visuals to items.
+- Reordered both the sidebar and Project Dashboard to the same authoring sequence: Game Setup & Rules → Maps & Locations → Content Studio → Story, Quests & Dialogues → Validation → Playtest.
+- Updated Help & Guide and installation material to explain the unified workflow while keeping appearance separate from gameplay rules internally.
 
 - Tactical Team Summary panels now preserve both complete opening rosters and their opening maximum HP throughout an encounter.
 - Fallen characters remain in their original list position at 0 HP, with the complete row shown in red instead of disappearing after the round.
@@ -28,7 +36,7 @@ Released: 25 August 2026
 - Sword/axe swings, spear/lance thrusts, bow releases, unarmed strikes and staff-conjuring gestures originate at the acting figure before projectile or impact effects resolve.
 - Character Editor supports optional weapon-specific animation chains with at most five steps. Authors can copy the base mesh pose to step 1, copy the previous step forward or use the local Copy/Paste pose clipboard.
 - Item Designer explicitly associates a weapon with its fight-animation family, including custom spears and staffs.
-- The new **Project Dashboard** turns the complete authoring process into a guided Maps → Rules → Story → Content → Validate → Playtest flow, with project metrics, readiness and a recommended next action.
+- **Project Dashboard** provides project metrics, readiness and a recommended next action using the same authoring order as the sidebar.
 - Map Browser now offers editable starting templates for an outdoor region, indoor stronghold, cave dungeon and five common tactical arenas: open field, forest, river crossing, great hall and cavern.
 - Story dialogues have clearer speaker identity, scene progress and numbered choices.
 - Ravenwood conclusions now open a Campaign Chronicle that explains how rescued civilians, bridge support, ritual anchors and the use of Hope shaped the ending.
@@ -54,7 +62,7 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Verification performed
 
-- 89 automated domain and simulation tests passed, including persistent casualty roster/max-HP, isolated attack-window, defensive consolidation and twelve-character army-formation regressions.
+- 92 automated domain and simulation tests passed, including visual-asset serialization, smooth pose interpolation, persistent casualty roster/max-HP, isolated attack-window, defensive consolidation and twelve-character army-formation regressions.
 - One hundred tactical fights all resolved: 57 Good wins and 43 Evil wins, with no draws and a 4.08-round average.
 - Ten complete Ravenwood simulations produced eight Good and two Evil victories, all within 100 turns.
 - Production build, server-rendered shell and ESLint passed.
@@ -72,6 +80,6 @@ The player begins with **Prologue — The Broken Oath**, chooses whether to resc
 
 ## Package integrity
 
-- File: `Strategy-RPG-Game-Maker-0.2.0-beta.10.zip`
-- Size: 938,607 bytes
-- SHA-256: `A6DD650470B81C26D3A0A33B2F7B346948A46BE32ED4AF0DFE1C5250C6540FDD`
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.11.zip`
+- Size: 983,862 bytes
+- SHA-256: `13DF3982A39D187CF8A479C39CFD2421F069D628621551C67B17D2D5920935A5`
