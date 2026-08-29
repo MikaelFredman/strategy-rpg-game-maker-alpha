@@ -1,4 +1,35 @@
-# Release notes — 0.2.0-beta.14
+# Release notes — 0.2.0-beta.15
+
+Released: 29 August 2026
+
+## Highlights
+
+- Fixed manual-player map movement. A clean left-click retains the hex that was under the pointer when the gesture began instead of re-picking after the 3D camera controls changed their internal target.
+- Selecting a controlled formation reliably exposes its highlighted movement area. Right-clicking a highlighted destination opens **Move to this hex**, and movement keeps the half-second-per-tile presentation.
+- Selection feedback now distinguishes controlled formations, opposing formations and empty hexes, including the exact number of reachable destinations.
+- The fix covers characters, groups and armies because all maps use the same input and authoritative movement command path.
+
+## Verification performed
+
+- Live Ravenwood manual-player test selected the Wardens at `4,14`, displayed 18 reachable hexes, opened **Move to this hex** for `5,13` and completed the animated route at the intended destination.
+- 102 domain/simulation tests, seven rendered-interface tests, ESLint and the production build passed.
+- The source-free ZIP installed 74 runtime packages with zero reported vulnerabilities and returned HTTP 200 with Ravenwood Pass present and no Vite development client.
+
+## Known limitations
+
+- This remains a Beta Preview and needs broader external testing of manual campaign flow, accessibility and long-session balance.
+- Chrome and Edge on Windows remain the supported browsers.
+- Initial setup needs internet access to install the local runtime.
+- The production build retains a non-blocking large JavaScript chunk advisory.
+
+## Package integrity
+
+- File: `Strategy-RPG-Game-Maker-0.2.0-beta.15.zip`
+- SHA-256: `A6A67C1D3F5BD44CA19485ACDE5D39A3886087642D2AD6D4B2B8E8B2EA305610`
+
+---
+
+# Previous release — 0.2.0-beta.14
 
 Released: 25 August 2026
 

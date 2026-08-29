@@ -1,12 +1,12 @@
 # Strategy RPG Game Maker - Beta Preview Community
 
-This repository is the public download, testing and feedback hub for **Strategy RPG Game Maker Beta Preview 0.2.0-beta.14**.
+This repository is the public download, testing and feedback hub for **Strategy RPG Game Maker Beta Preview 0.2.0-beta.15**.
 
 Strategy RPG Game Maker is an offline-first, board-game-like 3D hex editor and game-authoring system for turn-based Strategy RPGs. It combines map building, linked world/interior/dungeon maps, teams, characters, groups and armies, items and equipment, dialogue and quests, tactical battle maps, configurable AI, victory rules and spectator simulation.
 
 ## Current release
 
-- [Download Strategy RPG Game Maker 0.2.0-beta.14](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.14.zip)
+- [Download Strategy RPG Game Maker 0.2.0-beta.15](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.15.zip)
 - Read [RELEASE_NOTES.md](RELEASE_NOTES.md) before testing.
 - Follow [INSTALL.md](INSTALL.md) for installation and the recommended first test.
 - Keep backup copies of projects that matter to you. Project conversion exists, but this is still a preview build.
@@ -31,6 +31,7 @@ Ravenwood Pass is an editable, setting-neutral reference campaign built entirely
 - Open-length, joint-authored tactical animations for swords, spears, longbows, staffs, shields, consumables and unarmed attacks. Preset animations are protected templates that can be copied and adapted in Asset Studio.
 - Runtime equipment is attached to animated hands and follows the authored pose. Longbows visibly load, draw and release an arrow with a moving two-part string.
 - Stable tactical presentation: Good always deploys on the left/west side with a green health bar, while Evil deploys on the right/east side with a red health bar, regardless of who initiated the battle.
+- Reliable manual world movement: a clean left-click always selects the original pointed hex even though the 3D camera observes the same gesture. Controlled, opposing and empty selections provide specific guidance; right-clicking a highlighted destination exposes **Move to this hex**.
 - Sequential tactical presentation: one character completes its half-second-per-hex route and one isolated initiative action, animation, projectile and foreground sound resolves before the next begins.
 - Initiative passes preserve additional AP from level and quick races while giving other available characters their first action before surplus AP is spent. The active row/map tile is gold and a damaged row flashes red for 0.25 seconds.
 - Five longer original procedural fantasy themes now use distinct rhythmic accent phrases; the two faster battle themes add denser percussion. Layered distant battle ambience remains quieter than the singular foreground action.
@@ -43,7 +44,7 @@ The intended human play session is approximately 40–70 minutes, but this estim
 
 ## Install on Windows
 
-1. Download [`Strategy-RPG-Game-Maker-0.2.0-beta.14.zip`](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.14.zip) from this repository.
+1. Download [`Strategy-RPG-Game-Maker-0.2.0-beta.15.zip`](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.15.zip) from this repository.
 2. Right-click the ZIP and choose **Extract All…**. Do not run it from inside the ZIP preview.
 3. Install the current [Node.js LTS](https://nodejs.org/) if Node.js is not already installed. Node.js 22.13 or newer is required.
 4. Open the extracted folder and double-click **Start Strategy RPG Game Maker Beta.cmd**.
@@ -58,7 +59,7 @@ The editor normally opens at `http://localhost:3000` in Chrome or Microsoft Edge
 - Use **Feature request** for workflow or gameplay improvements.
 - Use **Discussions** for questions, design ideas, screenshots and showcases.
 
-Please search existing reports first. Include version `0.2.0-beta.14`, Windows version, browser, map name/size, exact reproduction steps and screenshots when useful. For Ravenwood balance feedback, also include chosen difficulty, winning side, approximate play time and the turn on which the game ended.
+Please search existing reports first. Include version `0.2.0-beta.15`, Windows version, browser, map name/size, exact reproduction steps and screenshots when useful. For Ravenwood balance feedback, also include chosen difficulty, winning side, approximate play time and the turn on which the game ended.
 
 ## Supported environment and preview limits
 
@@ -67,7 +68,7 @@ Please search existing reports first. Include version `0.2.0-beta.14`, Windows v
 - Desktop/laptop layout; mobile and non-Chromium browsers are not supported yet.
 - First setup requires internet; normal use is offline afterwards.
 - Visual assets, balance and save migrations may change during the preview.
-- This release passed 102 automated domain tests, five rendered-interface tests, build, lint and seeded Ravenwood balance checks. The source-free package was also installed separately with zero reported runtime vulnerabilities and smoke-tested over HTTP. Broader human visual and interaction testing is still needed.
+- This release passed 102 automated domain tests, seven rendered-interface tests, build, lint and a live manual Ravenwood movement test. The source-free package was also installed separately with zero reported runtime vulnerabilities and smoke-tested over HTTP. Broader human visual and interaction testing is still needed.
 
 ## Sharing created games
 

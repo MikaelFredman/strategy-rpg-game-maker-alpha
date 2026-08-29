@@ -9,8 +9,8 @@
 
 ## Installation
 
-1. Open the public [`0.2.0-beta.14` package](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.14.zip).
-2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.14.zip` using GitHub's download button.
+1. Open the public [`0.2.0-beta.15` package](downloads/Strategy-RPG-Game-Maker-0.2.0-beta.15.zip).
+2. Download `Strategy-RPG-Game-Maker-0.2.0-beta.15.zip` using GitHub's download button.
 3. In File Explorer, right-click the downloaded ZIP and choose **Extract All…**.
 4. Extract the complete folder somewhere writable, such as Documents. Do not launch it from inside the ZIP preview.
 5. Install Node.js LTS from nodejs.org with the standard choices if `node --version` is unavailable or older than 22.13.
@@ -29,17 +29,18 @@ Later starts and ordinary editor/game use work without internet access because t
 5. Select a dirt or stone road mesh. Ctrl/Shift-click two suitable endpoint hexes, right-click and use **Connect first and last selected hex**. Confirm that bends rotate correctly and water crossings receive bridges.
 6. Open **Map Browser** and inspect Ravenwood Pass, The Old Raven Inn and Whispering Cavern. Check that each doorway/cave link works in both directions.
 7. Choose **Start New Game**. Keep the default human Good side and AI Evil side for the first playthrough.
-8. Follow the Broken Oath quest journal: investigate the inn, choose hero paths, decide how to use supplies and the Hope Gem, cooperate with the militia, break the two anchors and confront Grimfang.
-9. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
-10. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
-11. In Map Browser, create a tactical map from a battle template—or retag a custom small map as **Battle**—paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
-12. Right-click an occupied editor hex, choose **Edit character…**, expand **Optional fight animations**, copy the base mesh pose to step 1 and copy the previous pose into a later step. Save and verify the custom chain survives reopening the project.
-13. In a tactical battle, verify sequential half-second tile-by-tile movement and singular initiative actions: one character is marked in gold, completes one action with its animation and foreground sound, and then yields to the next available character. Higher-level/quick-race characters may act again through surplus AP. Confirm that damage flashes the target row red once, Good deploys left with green health and Evil deploys right with red health.
-14. In the panels below the tactical map, confirm that each side's opening maximum HP remains fixed after a casualty and that the fallen character stays in the list at 0 HP with red row text.
-15. In an AI-only world simulation, inspect Latest world event for decisions to strike before reinforcements arrive, consolidate against a reinforced enemy or form a multi-group army.
-16. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story, rotations, Visual Assets and animation poses remain intact.
-17. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
-18. In editor mode, right-click a tile and verify Clear tile plus the alternating Hide tile/Show tile action. Hide must make the complete tile black; Show must restore its authored content.
+8. Complete the opening dialogue, left-click the Wardens and confirm highlighted destinations appear. Right-click one, choose **Move to this hex** and confirm the formation travels one tile at a time to that destination.
+9. Follow the Broken Oath quest journal: investigate the inn, choose hero paths, decide how to use supplies and the Hope Gem, cooperate with the militia, break the two anchors and confront Grimfang.
+10. Verify that dialogue choices have visible consequences, loose items can be collected/distributed and the ending reflects optional objectives.
+11. Select one or more world hexes, right-click, change **Battle map for selection**, inspect the miniature preview and then use **Apply battle map**. The selection alone must not alter the assigned map.
+12. In Map Browser, create a tactical map from a battle template—or retag a custom small map as **Battle**—paint its terrain and obstacles, and confirm that it appears with its actual layout in the same preview selector.
+13. Right-click an occupied editor hex, choose **Edit character…**, expand **Optional fight animations**, copy the base mesh pose to step 1 and copy the previous pose into a later step. Save and verify the custom chain survives reopening the project.
+14. In a tactical battle, verify sequential half-second tile-by-tile movement and singular initiative actions: one character is marked in gold, completes one action with its animation and foreground sound, and then yields to the next available character. Higher-level/quick-race characters may act again through surplus AP. Confirm that damage flashes the target row red once, Good deploys left with green health and Evil deploys right with red health.
+15. In the panels below the tactical map, confirm that each side's opening maximum HP remains fixed after a casualty and that the fallen character stays in the list at 0 HP with red row text.
+16. In an AI-only world simulation, inspect Latest world event for decisions to strike before reinforcements arrive, consolidate against a reinforced enemy or form a multi-group army.
+17. Save a project with **Save Project As…**, reopen it with **Open**, and confirm that maps, links, story, rotations, Visual Assets and animation poses remain intact.
+18. Optionally start a second game with all controllers set to AI and watch the spectator simulation. Music starts off and can be enabled with the music icon.
+19. In editor mode, right-click a tile and verify Clear tile plus the alternating Hide tile/Show tile action. Hide must make the complete tile black; Show must restore its authored content.
 
 ## What to report
 
